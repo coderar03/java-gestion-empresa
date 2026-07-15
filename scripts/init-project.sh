@@ -23,7 +23,6 @@ touch docs/arquitectura-local.pdf
 touch docs/arquitectura-cloud.pdf
 touch docs/uml-clases.png
 
-mkdir -p scripts
 touch scripts/build.sh
 touch scripts/deploy-lambda.sh
 

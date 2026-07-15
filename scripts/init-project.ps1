@@ -22,7 +22,6 @@ New-Item docs/arquitectura-local.pdf -ItemType File
 New-Item docs/arquitectura-cloud.pdf -ItemType File
 New-Item docs/uml-clases.png -ItemType File
 
-mkdir scripts
 New-Item scripts/build.sh -ItemType File
 New-Item scripts/deploy-lambda.sh -ItemType File
 
