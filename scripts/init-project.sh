@@ -2,21 +2,21 @@
 
 echo "Creando estructura profesional del proyecto Java..."
 
-# --- ESTRUCTURA MAVEN ---
-mkdir -p src/main/java/model
-mkdir -p src/main/java/interfaces
-mkdir -p src/main/java/exceptions
-mkdir -p src/main/java/services
-mkdir -p src/main/java/app
+# --- ESTRUCTURA MAVEN PROFESIONAL ---
+mkdir -p src/main/java/com/empresa/model
+mkdir -p src/main/java/com/empresa/interfaces
+mkdir -p src/main/java/com/empresa/exceptions
+mkdir -p src/main/java/com/empresa/services
+mkdir -p src/main/java/com/empresa/app
 mkdir -p src/main/resources
 mkdir -p src/test/java
 
 # --- .gitkeep PARA TODAS LAS CARPETAS MAVEN ---
-touch src/main/java/model/.gitkeep
-touch src/main/java/interfaces/.gitkeep
-touch src/main/java/exceptions/.gitkeep
-touch src/main/java/services/.gitkeep
-touch src/main/java/app/.gitkeep
+touch src/main/java/com/empresa/model/.gitkeep
+touch src/main/java/com/empresa/interfaces/.gitkeep
+touch src/main/java/com/empresa/exceptions/.gitkeep
+touch src/main/java/com/empresa/services/.gitkeep
+touch src/main/java/com/empresa/app/.gitkeep
 touch src/main/resources/.gitkeep
 touch src/test/java/.gitkeep
 
@@ -39,7 +39,7 @@ touch docs/arquitectura-local.pdf
 touch docs/arquitectura-cloud.pdf
 touch docs/uml-clases.png
 
-# --- SCRIPTS (NO se crea la carpeta, solo los archivos si ya existe) ---
+# --- SCRIPTS ---
 touch scripts/build.sh
 touch scripts/deploy-lambda.sh
 

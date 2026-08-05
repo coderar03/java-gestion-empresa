@@ -1,20 +1,20 @@
 Write-Host "Creando estructura profesional del proyecto Java..." -ForegroundColor Cyan
 
-# --- ESTRUCTURA MAVEN ---
-mkdir src/main/java/model
-mkdir src/main/java/interfaces
-mkdir src/main/java/exceptions
-mkdir src/main/java/services
-mkdir src/main/java/app
+# --- ESTRUCTURA MAVEN PROFESIONAL ---
+mkdir src/main/java/com/empresa/model
+mkdir src/main/java/com/empresa/interfaces
+mkdir src/main/java/com/empresa/exceptions
+mkdir src/main/java/com/empresa/services
+mkdir src/main/java/com/empresa/app
 mkdir src/main/resources
 mkdir src/test/java
 
 # --- .gitkeep PARA TODAS LAS CARPETAS MAVEN ---
-New-Item src/main/java/model/.gitkeep -ItemType File -Force | Out-Null
-New-Item src/main/java/interfaces/.gitkeep -ItemType File -Force | Out-Null
-New-Item src/main/java/exceptions/.gitkeep -ItemType File -Force | Out-Null
-New-Item src/main/java/services/.gitkeep -ItemType File -Force | Out-Null
-New-Item src/main/java/app/.gitkeep -ItemType File -Force | Out-Null
+New-Item src/main/java/com/empresa/model/.gitkeep -ItemType File -Force | Out-Null
+New-Item src/main/java/com/empresa/interfaces/.gitkeep -ItemType File -Force | Out-Null
+New-Item src/main/java/com/empresa/exceptions/.gitkeep -ItemType File -Force | Out-Null
+New-Item src/main/java/com/empresa/services/.gitkeep -ItemType File -Force | Out-Null
+New-Item src/main/java/com/empresa/app/.gitkeep -ItemType File -Force | Out-Null
 New-Item src/main/resources/.gitkeep -ItemType File -Force | Out-Null
 New-Item src/test/java/.gitkeep -ItemType File -Force | Out-Null
 
@@ -38,7 +38,7 @@ New-Item docs/arquitectura-local.pdf -ItemType File -Force | Out-Null
 New-Item docs/arquitectura-cloud.pdf -ItemType File -Force | Out-Null
 New-Item docs/uml-clases.png -ItemType File -Force | Out-Null
 
-# --- SCRIPTS (NO se crea la carpeta, solo los archivos si ya existe) ---
+# --- SCRIPTS ---
 New-Item scripts/build.sh -ItemType File -Force | Out-Null
 New-Item scripts/deploy-lambda.sh -ItemType File -Force | Out-Null
 
