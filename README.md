@@ -71,8 +71,8 @@ sistema-gestion-empresarial/
 - validación de datos
 
 ## 6. Excepciones personalizadas
-- PersonaNoEncontradaException
-- FicheroException
+- ArchivoNoEncontradoException
+- DatosVaciosException
 
 ## 7. Gestión de ficheros
 - Exportación a .txt
