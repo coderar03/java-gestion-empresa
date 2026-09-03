@@ -1,0 +1,29 @@
+# Maven build output
+target/
+
+# Git repository
+.git/
+.gitignore
+
+# IDE files
+.idea/
+*.iml
+out/
+nbproject/private/
+build/
+nbbuild/
+dist/
+nbdist/
+.nb-gradle/
+
+# Logs
+*.log
+
+# OS-specific
+.DS_Store
+Thumbs.db
+
+# Misc
+*.tmp
+*.bak
+*.swp
